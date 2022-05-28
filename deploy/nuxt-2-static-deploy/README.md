@@ -1,0 +1,1 @@
+https://hashinteractive.com/blog/docker-multi-stage-build-for-nuxt-generate/

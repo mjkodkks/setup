@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  # node:
+  #   container_name: dkks-builder
+  #   build: .
+
+  web:
+    container_name: dkks-nginx
+    build: .
+    restart: always
+    ports:
+      - "80:80"
