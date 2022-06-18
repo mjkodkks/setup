@@ -1,0 +1,10 @@
+{
+  "name": "setup",
+  "version": "1.0.0",
+  "description": "My useful document and script to use in my work",
+  "main": "index.js",
+  "repository": "git@github.com:mjkodkks/setup.git",
+  "author": "DKKs <eye.q.21@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
