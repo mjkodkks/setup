@@ -1,7 +1,6 @@
 # pull official node base image
 FROM node:16-alpine3.14 as builder
 
-ENV NODE_ENV production
 
 # set working directory all command COPY, RUN will take action in here.
 WORKDIR /app
@@ -16,7 +15,7 @@ WORKDIR /app
 COPY package.json .
 COPY yarn.lock .
 RUN corepack enable
-RUN yarn install --production
+RUN yarn install
 # on docker will be like ... 
 # app/
 # ├─ package.json

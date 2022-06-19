@@ -1,5 +1,5 @@
-# Setup
 -> [All Assets here](https://github.com/mjkodkks/setup/tree/main/docs/database/postgresql) <-
+
 ### docker-compose.yml
 ```
 version: '3'

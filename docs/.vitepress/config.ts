@@ -11,23 +11,25 @@ export default defineConfig({
         text: 'Server',
         collapsible: true,
         items: [
-          { text: 'startup', link: '/setup-vm' },
-          { text: 'ssl', link: '/ssl' },
-          { text: 'jenkins', link: '/jenkins' },
+          { text: 'startup', link: '/server/setup-vm' },
+          { text: 'ssl', link: '/server/ssl' },
+          { text: 'jenkins', link: '/server/jenkins' },
         ]
       },
       {
         text: 'Database',
         collapsible: true,
         items: [
-          { text: 'postgres', link: '/database/postgresql/' },
+          { text: 'postgres', link: '/database/postgresql/README' },
         ]
       },
       {
-        text: 'Deploy',
+        text: 'Deploy App',
         collapsible: true,
         items: [
-          { text: 'Web App', link: 'https://github.com/mjkodkks/setup/tree/main/deploy' },
+          { text: 'Web App', link: 'https://github.com/mjkodkks/setup/tree/main/docs/deploy' },
+          { text: 'NUXT2 - SSG', link: '/deploy/nuxt-2-static-deploy/README' },
+          { text: 'react - SPA', link: '/deploy/react-app-spa/README' },
         ]
       },
     ],
@@ -36,7 +38,7 @@ export default defineConfig({
       copyright: 'Copyright © 2022-present DKKs'
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/mjkodkks/setup' },
+      { icon: 'github', link: 'https://github.com/mjkodkks/setup/tree/main/docs' },
     ]
   }
 })
