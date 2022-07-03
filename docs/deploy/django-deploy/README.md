@@ -1,0 +1,1 @@
+https://proxyroot.com/django-poetry/
