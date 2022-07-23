@@ -14,6 +14,7 @@ export default defineConfig({
           { text: 'startup', link: '/server/setup-vm' },
           { text: 'ssl', link: '/server/ssl' },
           { text: 'jenkins', link: '/server/jenkins' },
+          { text: 'wsl2', link: '/wsl2/README' },
         ]
       },
       {
