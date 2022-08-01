@@ -32,6 +32,7 @@ export default defineConfig({
           { text: 'NUXT2 - SSG', link: '/deploy/nuxt-2-static-deploy/README' },
           { text: 'react - SPA', link: '/deploy/react-app-spa/README' },
           { text: 'Django - Deploy', link: '/deploy/django-deploy/README' },
+          { text: 'Deno - Deploy', link: '/deploy/deno/README' },
         ]
       },
     ],
