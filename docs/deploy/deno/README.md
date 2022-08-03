@@ -9,7 +9,7 @@ FROM denoland/deno:alpine-1.24.1 as base
 
 WORKDIR /app
 
-COPY . ./
+COPY . /app
 
 RUN deno cache server.ts
 
