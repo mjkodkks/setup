@@ -12,6 +12,7 @@ export default defineConfig({
         collapsible: true,
         items: [
           { text: 'startup', link: '/server/setup-vm' },
+          { text: 'nginx-proxy for hosting app', link: '/server/nginx-proxy' },
           { text: 'ssl', link: '/server/ssl' },
           { text: 'jenkins', link: '/server/jenkins' },
           { text: 'wsl2', link: '/wsl2/README' },
