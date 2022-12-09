@@ -26,7 +26,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Init Project',
+        text: 'React',
         collapsible: true,
         items: [
           { text: 'react(ts)-vite-mui-tailwind', link: '/react/react(ts)-vite-mui-tailwind.md' },
