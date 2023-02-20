@@ -43,6 +43,13 @@ export default defineConfig({
           { text: 'Deno - Deploy', link: '/deploy/deno/README' },
         ]
       },
+      {
+        text: 'Tailwindcss',
+        collapsible: true,
+        items: [
+          { text: 'Play tailwindcss easy way', link: '/tailwindcss/playcdn' },
+        ]
+      },
     ],
     footer: {
       message: 'Released under the MIT License.',
