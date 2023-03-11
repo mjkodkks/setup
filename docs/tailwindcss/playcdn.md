@@ -58,7 +58,7 @@ Add tailwindcss to simple web very easy.
 
 Add emptry tailwind.config.js to root project for intellisense autocomplate.
 
-![preview](https://data.terabox.com/thumbnail/4aed442de7ed3d3a0708daaf4f65a172?fid=4400809366918-250528-181960798963154&time=1676883600&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-FaqWjyYTrR4ig3MGoXk8lvDZhzM%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=23679093422084731&dp-callid=0&size=c1600_u1600&quality=100&vuk=-&ft=video)
+[![image.png](https://i.postimg.cc/XvtTtWvm/image.png)](https://postimg.cc/v1Lq6pft)
 
 
 ## Step 4 - Add Tailwind CSS IntelliSense
