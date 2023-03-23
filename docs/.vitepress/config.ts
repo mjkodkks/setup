@@ -9,7 +9,7 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Server',
-        collapsible: true,
+        collapsed: false,
         items: [
           { text: 'startup', link: '/server/setup-vm' },
           { text: 'nginx-proxy for hosting app', link: '/server/nginx-proxy' },
@@ -20,21 +20,21 @@ export default defineConfig({
       },
       {
         text: 'Database',
-        collapsible: true,
+        collapsed: false,
         items: [
           { text: 'postgres', link: '/database/postgresql/README' },
         ]
       },
       {
         text: 'React',
-        collapsible: true,
+        collapsed: false,
         items: [
           { text: 'react(ts)-vite-mui-tailwind', link: '/react/react(ts)-vite-mui-tailwind.md' },
         ]
       },
       {
         text: 'Deploy App',
-        collapsible: true,
+        collapsed: false,
         items: [
           { text: 'Web App', link: 'https://github.com/mjkodkks/setup/tree/main/docs/deploy' },
           { text: 'NUXT2 - SSG', link: '/deploy/nuxt-2-static-deploy/README' },
@@ -45,9 +45,10 @@ export default defineConfig({
       },
       {
         text: 'Tailwindcss',
-        collapsible: true,
+        collapsed: false,
         items: [
           { text: 'Play tailwindcss easy way', link: '/tailwindcss/playcdn' },
+          { text: 'How To Have A Hover Effect On Children When Parent Is Hovered', link: '/tailwindcss/hover-parent-to-children' },
         ]
       },
     ],

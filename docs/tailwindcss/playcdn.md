@@ -7,7 +7,7 @@ layout: doc
 
 [https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
-Add tailwindcss to simple web very easy.
+How to add tailwindcss to web very easy like playground.
 
 ## Step 1 - add cdn to html
 ```html
