@@ -7,6 +7,7 @@
   "author": "DKKs <eye.q.21@gmail.com>",
   "license": "MIT",
   "private": false,
+  "type": "module",
   "scripts": {
     "dev": "vitepress dev docs",
     "docs:dev": "vitepress dev docs",

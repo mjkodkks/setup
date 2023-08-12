@@ -38,6 +38,7 @@ export default defineConfig({
         items: [
           { text: 'Web App', link: 'https://github.com/mjkodkks/setup/tree/main/docs/deploy' },
           { text: 'NUXT2 - SSG', link: '/deploy/nuxt-2-static-deploy/README' },
+          { text: 'NUXT3 - SSR ', link: '/deploy/nuxt-3-ssr/README' },
           { text: 'react - SPA', link: '/deploy/react-app-spa/README' },
           { text: 'Django - Deploy', link: '/deploy/django-deploy/README' },
           { text: 'Deno - Deploy', link: '/deploy/deno/README' },
