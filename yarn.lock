@@ -576,11 +576,6 @@ minisearch@^6.3.0:
   resolved "https://registry.yarnpkg.com/minisearch/-/minisearch-6.3.0.tgz#985a2f1ca3c73c2d65af94f0616bfe57164b0b6b"
   integrity sha512-ihFnidEeU8iXzcVHy74dhkxh/dn8Dc08ERl0xwoMMGqp4+LvRSCgicb+zGqWthVokQKvCSxITlh3P08OzdTYCQ==
 
-mrmime@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/mrmime/-/mrmime-2.0.0.tgz#151082a6e06e59a9a39b46b3e14d5cfe92b3abb4"
-  integrity sha512-eu38+hdgojoyq63s+yTpN4XMBdt5l8HhMhc4VKLO9KM5caLIBvUm4thi7fFaxyTmCKeNnXZ5pAlBwCUnhA09uw==
-
 nanoid@^3.3.7:
   version "3.3.7"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.7.tgz#d0c301a691bc8d54efa0a2226ccf3fe2fd656bd8"
@@ -624,24 +619,24 @@ rollup@^4.2.0:
     "@rollup/rollup-win32-x64-msvc" "4.5.0"
     fsevents "~2.3.2"
 
-shikiji-core@0.9.16, shikiji-core@^0.9.15:
-  version "0.9.16"
-  resolved "https://registry.yarnpkg.com/shikiji-core/-/shikiji-core-0.9.16.tgz#014ea3285499c8c0650db267295ba9dc00b7923b"
-  integrity sha512-eJIK8/IpzvAGnbckCE2Qf/fOSfpjVLSosUfI3pQAnbphGXagEqiRcT/gyVtL4llqmBh0nexqRdJKMFZF3A6ayw==
+shikiji-core@0.9.17, shikiji-core@^0.9.17:
+  version "0.9.17"
+  resolved "https://registry.yarnpkg.com/shikiji-core/-/shikiji-core-0.9.17.tgz#a49a83a38149648a878ca7a00faa8fce8768f982"
+  integrity sha512-r1FWTXk6SO2aYqfWgcsJ11MuVQ1ymPSdXzJjK7q8EXuyqu8yc2N5qrQy5+BL6gTVOaF4yLjbxFjF+KTRM1Sp8Q==
 
-shikiji-transformers@^0.9.15:
-  version "0.9.16"
-  resolved "https://registry.yarnpkg.com/shikiji-transformers/-/shikiji-transformers-0.9.16.tgz#534720bc04172c996e0ecd22bcb10d001a420ba5"
-  integrity sha512-DcvhYtLc3Xtme070vgyyeHX0XrNK0zHrKIiPk8wcptFbFUuS65qYDd/UFl68+R8KhdoSFTM9EXlBa9MhrGlbaw==
+shikiji-transformers@^0.9.17:
+  version "0.9.17"
+  resolved "https://registry.yarnpkg.com/shikiji-transformers/-/shikiji-transformers-0.9.17.tgz#d0bdc7d00862f8dccec830fb5d8efc41437cd430"
+  integrity sha512-2CCG9qSLS6Bn/jbeUTEuvC6YSuP8gm8VyX5VjmCvDKyCPGhlLJbH1k/kg9wfRt7cJqpYjhdMDgT5rkdYrOZnsA==
   dependencies:
-    shikiji "0.9.16"
+    shikiji "0.9.17"
 
-shikiji@0.9.16, shikiji@^0.9.15:
-  version "0.9.16"
-  resolved "https://registry.yarnpkg.com/shikiji/-/shikiji-0.9.16.tgz#5fcf793abe57c63fb23cbc0ae49c774ad914daa2"
-  integrity sha512-QeSwiW88gHke9deQ5Av1f6CEVPGW/riRMPT3vMDGPnASCOhBZK4TYk5ZRoa2qYLncPZS5kXKwcggccQvg3+U7Q==
+shikiji@0.9.17, shikiji@^0.9.17:
+  version "0.9.17"
+  resolved "https://registry.yarnpkg.com/shikiji/-/shikiji-0.9.17.tgz#6c87310a2adc97a6e40770b853472462ed8299c7"
+  integrity sha512-0z/1NfkhBkm3ijrfFeHg3G9yDNuHhXdAGbQm7tRxj4WQ5z2y0XDbnagFyKyuV2ebCTS1Mwy1I3n0Fzcc/4xdmw==
   dependencies:
-    shikiji-core "0.9.16"
+    shikiji-core "0.9.17"
 
 source-map-js@^1.0.2:
   version "1.0.2"
@@ -664,10 +659,10 @@ vite@^5.0.10:
   optionalDependencies:
     fsevents "~2.3.3"
 
-vitepress@^1.0.0-rc.34:
-  version "1.0.0-rc.34"
-  resolved "https://registry.yarnpkg.com/vitepress/-/vitepress-1.0.0-rc.34.tgz#271451daf56c0807c1d3114b38f1473eb9b184e2"
-  integrity sha512-TUbTiSdAZFni2XlHlpx61KikgkQ5uG4Wtmw2R0SXhIOG6qGqzDJczAFjkMc4i45I9c3KyatwOYe8oEfCnzVYwQ==
+vitepress@^1.0.0-rc.35:
+  version "1.0.0-rc.35"
+  resolved "https://registry.yarnpkg.com/vitepress/-/vitepress-1.0.0-rc.35.tgz#d5cd3ea6d7bca87c4375aef156dc1af632354a92"
+  integrity sha512-+2VnFwtYIiKWWAnMjWg7ik0PfsUdrNoZIZKeu5dbJtrkzKO/mTvlA3owiT5VBKJsZAgI17B5UV37aYfUvGrN6g==
   dependencies:
     "@docsearch/css" "^3.5.2"
     "@docsearch/js" "^3.5.2"
@@ -679,19 +674,18 @@ vitepress@^1.0.0-rc.34:
     focus-trap "^7.5.4"
     mark.js "8.11.1"
     minisearch "^6.3.0"
-    mrmime "^2.0.0"
-    shikiji "^0.9.15"
-    shikiji-core "^0.9.15"
-    shikiji-transformers "^0.9.15"
+    shikiji "^0.9.17"
+    shikiji-core "^0.9.17"
+    shikiji-transformers "^0.9.17"
     vite "^5.0.10"
-    vue "^3.4.3"
+    vue "^3.4.4"
 
 vue-demi@>=0.14.6:
   version "0.14.6"
   resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.14.6.tgz#dc706582851dc1cdc17a0054f4fec2eb6df74c92"
   integrity sha512-8QA7wrYSHKaYgUxDA5ZC24w+eHm3sYCbp0EzcDwKqN3p6HqtTCGR/GVsPyZW92unff4UlcSh++lmqDWN3ZIq4w==
 
-vue@^3.4.3, vue@^3.4.4:
+vue@^3.4.4:
   version "3.4.4"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.4.4.tgz#49b84c8a936c0d5b65a6839f97c576d249fd800e"
   integrity sha512-suZXgDVT8lRNhKmxdkwOsR0oyUi8is7mtqI18qW97JLoyorEbE9B2Sb4Ws/mR/+0AgA/JUtsv1ytlRSH3/pDIA==
