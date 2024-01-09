@@ -685,7 +685,7 @@ vue-demi@>=0.14.6:
   resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.14.6.tgz#dc706582851dc1cdc17a0054f4fec2eb6df74c92"
   integrity sha512-8QA7wrYSHKaYgUxDA5ZC24w+eHm3sYCbp0EzcDwKqN3p6HqtTCGR/GVsPyZW92unff4UlcSh++lmqDWN3ZIq4w==
 
-vue@^3.4.4, vue@^3.4.5:
+vue@^3.4.4, vue@^3.4.6:
   version "3.4.6"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.4.6.tgz#ed53a1849241b1cb866212f04b213f68f5f550e4"
   integrity sha512-gAzw5oP0/h34/yq1LjLNpn4wrCKYMuWp2jbs/JirFiZAFWYhd9jTkXp4wIi5ApgMJrMgD6YFyyXwKsqFYR31IQ==
